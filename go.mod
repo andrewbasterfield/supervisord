@@ -1,4 +1,4 @@
-module github.com/ochinchina/supervisord
+module github.com/andrewbasterfield/supervisord
 
 require (
 	github.com/gorilla/mux v1.7.3
@@ -16,6 +16,6 @@ require (
 	github.com/sirupsen/logrus v1.6.0
 )
 
-replace github.com/ochinchina/supervisord => ./
+replace github.com/andrewbasterfield/supervisord => ./
 
 go 1.15
